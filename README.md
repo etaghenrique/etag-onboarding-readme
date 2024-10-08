@@ -3,7 +3,7 @@
 
 ## Git
 
-Clique [aqui](https://git-scm.com/downloads) para acessar a página de download
+[Download do git](https://git-scm.com/download)
 
 * Abra o arquivo para iniciar a instalação
 
@@ -40,7 +40,7 @@ Clique [aqui](https://git-scm.com/downloads) para acessar a página de download
 
 ## Mongo Compass
 
-Clique [aqui](https://www.mongodb.com/try/download/compass) para acessar a página de download
+[Download do Mongo Compass](https://www.mongodb.com/try/download/compass)
 
 * Após acessar a página, você terá algumas opções
   - Desça até visualizar "MongoDB Compass Download (GUI)" e faça o download.
@@ -61,11 +61,43 @@ Clique [aqui](https://www.mongodb.com/try/download/compass) para acessar a pági
 
 ## Docker
 
-Clique [aqui](https://www.docker.com/) para ir para o site de download
+[Download do Docker](https://www.docker.com/)
 
 * Inicie o arquivo de instalação
 * Clique em "Ok"
   - ![image](https://github.com/user-attachments/assets/abed9a88-2daa-46a5-8b7f-e67053fb3c8c)
 * Após concluir, reinicie a máquina novamente
   - ![image](https://github.com/user-attachments/assets/4c97cfe6-a054-40d6-be86-e3287f6817fe)
- 
+ * Após reiniciar, docker também irá iniciar e irá te pedir para criar uma conta. É opcional
+  - ![image](https://github.com/user-attachments/assets/e7fabbc4-3510-43c0-93ed-c0e5da55a812)
+
+## DBeaver
+
+[Download do DBEaver](https://dbeaver.io/download/)
+
+* Selecione uma linguagem de sua preferência
+  - ![image](https://github.com/user-attachments/assets/0a00f01f-e561-4bcc-a402-9b9024705937)
+* Selecione "Próximo" até a instalação iniciar
+
+## Node.Js
+
+[Download do Node.Js](https://nodejs.org/en/download/package-manager)
+
+* Nesta etapa, eu prefiro selecionar "Prebuilt Installer" e fazer o download do instalador
+  - ![image](https://github.com/user-attachments/assets/202cc752-f095-44d1-85dc-17c82b3bf73b)
+* Inicie a instalação, e clique em "próximo" até concluir.
+* Para verificar se a instalação foi concluída com êxito, abra um terminal e digite "node -v". Deverá aparecer a versão do Node que foi instalada.
+
+## Client Azure
+
+[Download do CLI](https://learn.microsoft.com/pt-br/cli/azure/install-azure-cli-windows?tabs=azure-cli)
+
+* Faça a instalação de sua preferência
+  - Caso tenha selecionado o MSI, inicie a instalação e clique em "Next" até concluir.
+* Para verificar se a instalação foi concluída, abra um terminal e digite "az -v"
+
+### Login
+
+* Para iniciar o processo de autenticação no Azure CLI, abra um terminal e digite "az login". Você será redirecionado para uma página para inserir suas credênciais.
+  - ![image](https://github.com/user-attachments/assets/aa49f159-f76b-44f4-9c25-b52eaa0886e9)
+  - Insira seu email e senha corporátivo, e conclua o Login.
