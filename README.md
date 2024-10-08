@@ -23,20 +23,18 @@
    
 ### Configuração do SSH
 * O SSH irá servir para que você clone repositórios privados da ETag sem a necessidade de autenticação. Todas as clonagens serão feitas com SSH. Os comandos abaixo devem ser digitado em um terminal (como git bash).
-    - ssh-keygen -t ed25519 -C "henrique.f@etagdigital.com" (troque pelo seu email). Não é necessário alterar nada, apenas prossiga para o próximo passo (enter) até finalizar.
-    - ![image](https://github.com/user-attachments/assets/1ce98afd-72ca-4a68-95a4-c05dc8d52c1a)
-    - Vá para a pasta do seu usuário e acesse .ssh (no windows C:\Users\devet) e abra a pasta .ssh
+    - ```ssh-keygen -t rsa-sha2-256``` . Não é necessário alterar nada, apenas prossiga para o próximo passo (enter) até finalizar.
+    - ![image](https://github.com/user-attachments/assets/dbe8673c-5db5-42d4-b36a-98dd809fc91f)
+
+    - Vá para a pasta do seu usuário e acesse .ssh (no windows C:\Users\seuUser) e abra a pasta .ssh
       - Caso não apareça o arquivo, clique em Visualizar -> Mostrar -> Itens ocultos.
       - ![image](https://github.com/user-attachments/assets/90966463-0e6e-43db-92f4-784c4a5954ff)
-    - Vá para o seu perfil do github clicando [aqui](https://github.com/settings/profile)
-    - Selecione SSH and GPG Keys
-      - ![image](https://github.com/user-attachments/assets/62f1fb7f-6f79-4f34-b3c1-1e9f57da3460)
-    - Selecione "New SSH Key"
-      - ![image](https://github.com/user-attachments/assets/9bb9241a-b1d3-4281-a5f7-0f3e4ed3c449)
-    - Selecione um titulo - como "Etag digital seu nome"
-      - ![image](https://github.com/user-attachments/assets/ca3aee86-1b77-4273-bb23-fa97ac50277a)
-    - Na sessão "key", entre na pasta .ssh mencionada anteriormente, abra o arquivo .pub em um editor de texto, e cole seu conteúdo no github. Desta forma, o SSH está configurado, e será possível clonar repositórios privados aos quais você tem acesso.
-      - ![image](https://github.com/user-attachments/assets/0d94b7cb-f039-48a8-aa3f-ece1a6fe7a2f)
+    - Vá para o seu perfil do azure devops clicando [aqui](https://dev.azure.com/)
+    - Selecione SSH public keys
+      - ![image](https://github.com/user-attachments/assets/93d53ed0-6f62-472a-a74e-a181f5ba27a8)
+    - Na sessão "add", entre na pasta .ssh mencionada anteriormente, abra o arquivo id_rsa.pub em um editor de texto, e cole seu conteúdo no azure devops. Desta forma, o SSH está configurado, e será possível clonar repositórios privados aos quais você tem acesso.
+      - ![image](https://github.com/user-attachments/assets/e68a935c-a63b-4dd1-a42d-198d9bb3708a)
+
 
 ## Mongo Compass
 
