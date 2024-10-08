@@ -53,3 +53,19 @@ Clique [aqui](https://www.mongodb.com/try/download/compass) para acessar a pági
   - wsl --install
     - Após a conclusão, reinicie sua máquina
     - ![image](https://github.com/user-attachments/assets/302f9c74-8ddd-4c90-9fe6-f2d5d84611a4)
+    - Após reiniciar, uma instalação irá se iniciar automaticamente
+      - Em UNIX name, seria o seu username. Insira um de sua preferência, como seu próprio nome.
+      - ![image](https://github.com/user-attachments/assets/dd55f6df-4f38-45c7-ba76-a89e97c85378)
+      - E também insira uma senha que você se lembre bem
+      - ![image](https://github.com/user-attachments/assets/8c75cf60-72b0-4418-b279-ee2500d7821d)
+
+## Docker
+
+Clique [aqui](https://www.docker.com/) para ir para o site de download
+
+* Inicie o arquivo de instalação
+* Clique em "Ok"
+  - ![image](https://github.com/user-attachments/assets/abed9a88-2daa-46a5-8b7f-e67053fb3c8c)
+* Após concluir, reinicie a máquina novamente
+  - ![image](https://github.com/user-attachments/assets/4c97cfe6-a054-40d6-be86-e3287f6817fe)
+ 
